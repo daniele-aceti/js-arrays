@@ -36,7 +36,6 @@ console.log(teachers);
 
 // 7. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
-
 let isFabioPresent= (teachers.includes('Fabio'));
 console.log(isFabioPresent);
 
