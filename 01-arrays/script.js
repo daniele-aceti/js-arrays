@@ -50,13 +50,11 @@ console.log(lewisIndex);
 let teachersString = teachers.join();
 console.log(teachersString)
 
-//oppure
-
-teachersString = teachers.toLocaleString()
-console.log(teachersString)
-
 
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = !teachers.length;
-console.log(isTeachersEmpty)
+if(!teachers[0]){ //L'ARRAY VUOTO E' UNDEFINED
+  console.log("l'array è vuoto")
+}else{
+  console.log("l'array è pieno")
+}

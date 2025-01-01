@@ -19,7 +19,9 @@ const longNames = teachers.filter((names) => names.length >= 5);
 console.log(longNames)
 
 // 3. Rimuovi 'Ed' dall'array teachers
-console.log(teachers) // inserito questo console.log per verificare che la lista sia invertita cosi da definire l'indice
+
+const edIndex = teachers.indexOf("Ed")
+console.log(edIndex) //5
 teachers.splice(5, 1);
 console.log(teachers)
 
