@@ -94,22 +94,13 @@ for(index = 0; index < teachers.length; index++){
 // e salva il risultato nella variabile isTeachersEmpty
 
 
-  if(teachers[0] === undefined  ){ //L'ARRAY VUOTO E' UNDEFINED
-    console.log("l'array è vuoto")
-  }else{
-    console.log("l'array è pieno")
-  }
-
-  
-  //oppure
-
-  const students = []
-  console.log()
-  if(!students[0]){ //L'ARRAY VUOTO E' UNDEFINED(FALSE) IL CONTRARIO E' TRUE ENTRA
-    console.log("l'array è vuoto")
-  }else{
-    console.log("l'array è pieno")
-  }
+let students = []
+students = students.length
+if(students === 0 ){
+  console.log("è vuoto")
+}else{
+  console.log("è pieno")
+}
 
  
   
