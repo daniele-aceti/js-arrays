@@ -1,5 +1,7 @@
 # 📚 Esercizi JavaScript – Arrays & Loop
 
+📅 Ultimo aggiornamento 05/01/2025
+
 **JavaScript** • **HTML** • **Console Output**
 
 > Raccolta di esercizi base/intermedi in JavaScript per allenarsi su array, cicli `for`, metodi di manipolazione e logica condizionale.
